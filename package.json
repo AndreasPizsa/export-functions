@@ -1,0 +1,31 @@
+{
+  "name": "export-functions",
+  "description": "convenience function to export named functions (for JS < ES6 :) )",
+  "version": "0.1.0",
+  "homepage": "https://github.com/AndreasPizsa/export-functions",
+  "author": "Andreas Pizsa (https://github.com/AndreasPizsa)",
+  "repository": "AndreasPizsa/export-functions",
+  "bugs": {
+    "url": "https://github.com/AndreasPizsa/export-functions/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && ./node_modules/.bin/codecov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls" : "*",
+    "istanbul" : "*",
+    "mocha": "*",
+    "mocha-lcov-reporter": "*",
+    "should": "*"
+  },
+  "keywords": []
+}
