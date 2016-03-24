@@ -28,5 +28,8 @@
     "mocha-lcov-reporter": "*",
     "should": "*"
   },
-  "keywords": []
+  "keywords": ["export","modules","module"],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
