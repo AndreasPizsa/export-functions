@@ -1,5 +1,7 @@
 # export-functions ![Travis](https://img.shields.io/travis/AndreasPizsa/export-functions.svg?style=flat-square) ![Coverage Status](https://img.shields.io/coveralls/AndreasPizsa/export-functions.svg?style=flat-square) ![Coverage Status](https://img.shields.io/codecov/c/github/AndreasPizsa/export-functions.svg?style=flat-square) ![Downloads](https://img.shields.io/npm/dm/export-functions.svg?style=flat-square)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/AndreasPizsa/export-functions.svg)](https://greenkeeper.io/)
+
 > convenience function to export named functions (for JS < ES6 :) )
 
 ## Install
