@@ -21,7 +21,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "codecov" : "*",
+    "codecov" : ">=3.6.5",
     "coveralls" : "*",
     "istanbul" : "*",
     "mocha": "*",
