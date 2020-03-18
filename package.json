@@ -24,7 +24,7 @@
     "codecov" : "*",
     "coveralls" : "*",
     "istanbul" : "*",
-    "mocha": "*",
+    "mocha": ">=7.1.1",
     "mocha-lcov-reporter": "*",
     "should": "*"
   },
