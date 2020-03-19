@@ -22,7 +22,7 @@
   "dependencies": {},
   "devDependencies": {
     "codecov" : "*",
-    "coveralls" : "*",
+    "coveralls" : ">=3.0.11",
     "istanbul" : "*",
     "mocha": "*",
     "mocha-lcov-reporter": "*",
